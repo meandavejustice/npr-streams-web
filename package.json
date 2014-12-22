@@ -1,0 +1,22 @@
+{
+  "name": "npr-stream-web",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "load": "node init.js",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD",
+  "dependencies": {
+    "browserify": "^5.0.1",
+    "feedparser": "^0.18.1",
+    "hapi": "^6.2.1",
+    "hyperscript": "^1.4.2",
+    "level": "^0.18.0",
+    "request": "^2.51.0",
+    "sax": "^0.6.0"
+  }
+}
