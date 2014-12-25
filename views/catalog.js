@@ -10,7 +10,8 @@ function stationLi(station) {
 function template(data) {
     return "<DOCTYPE html>" + h("html", [
         h("head", [
-            h("title", "npr-streams - stations")
+          h("meta", {"charset":"utf-8"}),
+          h("title", "npr-streams - stations")
         ]),
         h("body", [
             h("h1", "Stations"),

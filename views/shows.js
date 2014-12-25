@@ -10,6 +10,7 @@ function showLi(show) {
 function template(data) {
   return "<DOCTYPE html>" + h("html", [
     h("head", [
+      h("meta", {"charset":"utf-8"}),
       h("title", "npr-streams - shows for "+data.station)
     ]),
     h("body", [
